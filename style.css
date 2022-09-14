@@ -2,6 +2,8 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    display: flex;
+    flex-direction: column;
     padding: 15px;
 }
 .top-nav {
@@ -15,14 +17,12 @@
     height: 300px;
     width: 200px;
     background-color: blue;
-    display: inline-block;
     margin-left: 20px;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
-    display: inline-block;
     vertical-align: top;
     margin-left: 6px;
     margin-bottom: 20px;
